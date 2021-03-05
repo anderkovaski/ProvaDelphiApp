@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/03/04 23:27:07.687,=C:\projetos\delphi\Unit1.pas</Transaction>
+    <Transaction>2021/03/04 23:30:35.217,C:\projetos\delphi\ProvaDelphiApp\forms\ufMain.dfm=C:\projetos\delphi\Unit1.dfm</Transaction>
+    <Transaction>2021/03/04 23:30:35.217,C:\projetos\delphi\ProvaDelphiApp\forms\ufMain.pas=C:\projetos\delphi\Unit1.pas</Transaction>
+    <Transaction>2021/03/04 23:31:25.821,C:\projetos\delphi\ProvaDelphiApp\ProvaDelphiApp.dproj=C:\projetos\delphi\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
