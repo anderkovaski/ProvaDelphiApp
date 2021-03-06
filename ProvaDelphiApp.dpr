@@ -2,13 +2,14 @@ program ProvaDelphiApp;
 
 uses
   Vcl.Forms,
-  ufMain in 'forms\ufMain.pas' {Form1};
+  ufMain in 'forms\ufMain.pas' {fMain},
+  ufTarefa1 in 'forms\ufTarefa1.pas' {fTarefa1};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfMain, fMain);
   Application.Run;
 end.
