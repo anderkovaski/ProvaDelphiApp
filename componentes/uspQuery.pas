@@ -9,9 +9,9 @@ uses
 type
   TspQuery = class(TFDQuery)
   private
-    FspCondicoes: TStringList;
-    FspColunas: TStringList;
-    FspTabelas: TStringList;
+    FspCondicoes: TStrings;
+    FspColunas: TStrings;
+    FspTabelas: TStrings;
 
     procedure VerificaErros;
     function CriarClausulaSelect: String;
@@ -19,16 +19,20 @@ type
     function CriarClausulaWhere: String;
     { Private declarations }
   protected
-      procedure GeraSQL;
     { Protected declarations }
   public
+    procedure GeraSQL;
     { Public declarations }
   published
-    property spCondicoes: TStringList read FspCondicoes write FspCondicoes;
-    property spColunas: TStringList read FspColunas write FspColunas;
-    property spTabelas: TStringList read FspTabelas write FspTabelas;
+    property spCondicoes: TStrings read FspCondicoes write FspCondicoes;
+    property spColunas: TStrings read FspColunas write FspColunas;
+    property spTabelas: TStrings read FspTabelas write FspTabelas;
     { Published declarations }
   end;
+
+const
+  NL = #13#10;
+  SP = #32#32;
 
 implementation
 
@@ -36,17 +40,17 @@ implementation
 
 function TspQuery.CriarClausulaFrom: String;
 begin
-  Result := 'from ' + FspTabelas.DelimitedText;
+  Result := 'from' + NL + SP + FspTabelas.DelimitedText;
 end;
 
 function TspQuery.CriarClausulaSelect: String;
 begin
   if (not Assigned(FspColunas)) or (FspColunas.Count <1) then
-    Result := 'select *'
+    Result := 'select' + NL + SP + '*'
   else
   begin
     FspColunas.Delimiter := ',';
-    Result := 'select ' + FspColunas.DelimitedText;
+    Result := 'select' + NL + SP + FspColunas.DelimitedText.Replace(',', ', ');
   end;
 end;
 
@@ -57,7 +61,7 @@ begin
   else
   begin
     FspCondicoes.Delimiter := ',';
-    Result := 'where' + StringReplace(FspCondicoes.DelimitedText, ',', ' AND ', [rfReplaceALL]);
+    Result := 'where' +  NL + SP + FspCondicoes.DelimitedText.Replace(',', ' and ');
   end;
 end;
 
@@ -74,7 +78,7 @@ end;
 
 procedure TspQuery.VerificaErros;
 begin
-  if (not Assigned(FspTabelas)) or (not FspTabelas.Count = 1)then
+  if (not Assigned(FspTabelas)) or (not (FspTabelas.Count = 1))then
     raise Exception.Create('TspQuery - Deve ser informado uma tabela');
 end;
 

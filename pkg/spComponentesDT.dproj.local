@@ -1,16 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/03/06 02:19:57.311,=rtl.dcp</Transaction>
-    <Transaction>2021/03/06 02:20:40.770,C:\projetos\delphi\ProvaDelphiApp\pkg\spComponentesDT.dproj=C:\projetos\delphi\Package1.dproj</Transaction>
-    <Transaction>2021/03/06 02:21:49.763,=C:\projetos\delphi\ProvaDelphiApp\pkg\Unit1.pas</Transaction>
-    <Transaction>2021/03/06 02:22:59.498,C:\projetos\delphi\ProvaDelphiApp\componentes\uspComponentesRegistro.pas=C:\projetos\delphi\ProvaDelphiApp\pkg\Unit1.pas</Transaction>
-    <Transaction>2021/03/06 02:30:18.733,=C:\projetos\delphi\ProvaDelphiApp\componentes\uspQuery.pas</Transaction>
-    <Transaction>2021/03/06 02:31:14.594,C:\projetos\delphi\ProvaDelphiApp\componentes\uspQuery.pas=</Transaction>
-    <Transaction>2021/03/06 02:35:03.618,=C:\projetos\delphi\ProvaDelphiApp\componentes\uspQuery.pas</Transaction>
-    <Transaction>2021/03/06 02:35:32.872,=FireDAC.dcp</Transaction>
-    <Transaction>2021/03/06 02:35:32.872,=FireDACCommon.dcp</Transaction>
-    <Transaction>2021/03/06 02:35:32.872,=dbrtl.dcp</Transaction>
-    <Transaction>2021/03/06 02:35:32.872,=FireDACCommonDriver.dcp</Transaction>
+	<Transactions>
+    <Transaction>2021/03/06 02:19:57.000.311,=rtl.dcp</Transaction>
+    <Transaction>2021/03/06 02:20:40.000.770,C:\projetos\delphi\Package1.dproj=C:\projetos\delphi\ProvaDelphiApp\pkg\spComponentesDT.dproj</Transaction>
+    <Transaction>2021/03/06 02:21:49.000.763,=C:\projetos\delphi\ProvaDelphiApp\pkg\Unit1.pas</Transaction>
+    <Transaction>2021/03/06 02:22:59.000.498,C:\projetos\delphi\ProvaDelphiApp\pkg\Unit1.pas=C:\projetos\delphi\ProvaDelphiApp\componentes\uspComponentesRegistro.pas</Transaction>
+    <Transaction>2021/03/06 02:30:18.000.733,=C:\projetos\delphi\ProvaDelphiApp\componentes\uspQuery.pas</Transaction>
+    <Transaction>2021/03/06 02:31:14.000.594,C:\projetos\delphi\ProvaDelphiApp\componentes\uspQuery.pas=</Transaction>
+    <Transaction>2021/03/06 02:35:03.000.618,=C:\projetos\delphi\ProvaDelphiApp\componentes\uspQuery.pas</Transaction>
+    <Transaction>2021/03/06 02:35:32.000.872,=dbrtl.dcp</Transaction>
+    <Transaction>2021/03/06 02:35:32.000.872,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2021/03/06 02:35:32.000.872,=FireDAC.dcp</Transaction>
+    <Transaction>2021/03/06 02:35:32.000.872,=FireDACCommon.dcp</Transaction>
+    <Transaction>2021/03/06 14:20:04.000.058,C:\projetos\delphi\ProvaDelphiApp\componentes\uspQuery.pas=</Transaction>
+    <Transaction>2021/03/06 14:29:54.000.634,=C:\projetos\delphi\ProvaDelphiApp\componentes\uspQuery.pas</Transaction>
+    <Transaction>2021/03/06 14:30:20.000.448,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2021/03/06 14:30:20.000.433,=FireDAC.dcp</Transaction>
+    <Transaction>2021/03/06 14:30:20.000.417,=dbrtl.dcp</Transaction>
+    <Transaction>2021/03/06 14:30:20.000.464,=FireDACCommon.dcp</Transaction>
+    <Transaction>2021/03/06 14:30:20.000.401,=rtl.dcp</Transaction>
   </Transactions>
 </BorlandProject>

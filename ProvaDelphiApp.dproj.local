@@ -10,9 +10,15 @@
     <Transaction>2021/03/05 00:17:57.000.892,C:\projetos\delphi\ProvaDelphiApp\classes\uFormDinamico.pas=</Transaction>
     <Transaction>2021/03/05 01:15:08.000.150,=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
     <Transaction>2021/03/05 01:15:31.000.551,C:\projetos\delphi\ProvaDelphiApp\Unit1.pas=C:\projetos\delphi\ProvaDelphiApp\classes\uFormDinamico.pas</Transaction>
-    <Transaction>2021/03/05 23:48:54.365,C:\projetos\delphi\ProvaDelphiApp\classes\uFormDinamico.pas=</Transaction>
-    <Transaction>2021/03/05 23:50:29.541,=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
-    <Transaction>2021/03/05 23:51:50.222,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa1.dfm=C:\projetos\delphi\ProvaDelphiApp\Unit1.dfm</Transaction>
-    <Transaction>2021/03/05 23:51:50.222,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa1.pas=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
-  </Transactions>
+    <Transaction>2021/03/05 23:48:54.000.365,C:\projetos\delphi\ProvaDelphiApp\classes\uFormDinamico.pas=</Transaction>
+    <Transaction>2021/03/05 23:50:29.000.541,=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
+    <Transaction>2021/03/05 23:51:50.000.222,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa1.dfm=C:\projetos\delphi\ProvaDelphiApp\Unit1.dfm</Transaction>
+    <Transaction>2021/03/05 23:51:50.000.222,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa1.pas=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="forms"/>
+    <File Path="forms\ufMain.pas"/>
+    <File Path="forms\ufMain.dfm"/>
+    <File Path="forms\ufTarefa1.pas"/>
+    <File Path="forms\ufTarefa1.dfm"/>
+  </ProjectSortOrder>
 </BorlandProject>

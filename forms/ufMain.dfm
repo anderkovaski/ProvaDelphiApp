@@ -2,11 +2,11 @@ object fMain: TfMain
   Left = 0
   Top = 0
   Caption = 'Main'
-  ClientHeight = 181
-  ClientWidth = 304
+  ClientHeight = 421
+  ClientWidth = 624
   Color = clBtnFace
-  Constraints.MinHeight = 240
-  Constraints.MinWidth = 320
+  Constraints.MinHeight = 480
+  Constraints.MinWidth = 640
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -15,18 +15,10 @@ object fMain: TfMain
   FormStyle = fsMDIForm
   Menu = MainMenu
   OldCreateOrder = False
+  WindowState = wsMaximized
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
-  object pnMain: TPanel
-    Left = 0
-    Top = 0
-    Width = 304
-    Height = 181
-    Align = alClient
-    BevelOuter = bvNone
-    TabOrder = 0
-  end
   object MainMenu: TMainMenu
     Left = 72
     Top = 40
