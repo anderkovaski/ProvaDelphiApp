@@ -28,6 +28,15 @@ package spComponentes;
 {$IMPLICITBUILD ON}
 
 requires
-  rtl;
+  rtl,
+  dbrtl,
+  FireDAC,
+  FireDACSqliteDriver,
+  FireDACCommonDriver,
+  FireDACCommon,
+  xmlrtl;
+
+contains
+  uspQuery in '..\componentes\uspQuery.pas';
 
 end.

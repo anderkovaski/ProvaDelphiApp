@@ -3,5 +3,13 @@
   <Transactions>
     <Transaction>2021/03/06 00:23:50.941,=rtl.dcp</Transaction>
     <Transaction>2021/03/06 00:25:58.559,C:\projetos\delphi\ProvaDelphiApp\pkg\spComponentes.dproj=C:\projetos\delphi\Package1.dproj</Transaction>
+    <Transaction>2021/03/06 00:44:04.860,=C:\projetos\delphi\ProvaDelphiApp\componentes\spQuery.pas</Transaction>
+    <Transaction>2021/03/06 00:44:04.951,=dbrtl.dcp</Transaction>
+    <Transaction>2021/03/06 00:44:04.965,=FireDAC.dcp</Transaction>
+    <Transaction>2021/03/06 00:44:04.979,=FireDACSqliteDriver.dcp</Transaction>
+    <Transaction>2021/03/06 00:44:04.993,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2021/03/06 00:44:05.007,=FireDACCommon.dcp</Transaction>
+    <Transaction>2021/03/06 00:44:05.021,=xmlrtl.dcp</Transaction>
+    <Transaction>2021/03/06 01:14:13.043,C:\projetos\delphi\ProvaDelphiApp\componentes\uspQuery.pas=C:\projetos\delphi\ProvaDelphiApp\componentes\spQuery.pas</Transaction>
   </Transactions>
 </BorlandProject>
