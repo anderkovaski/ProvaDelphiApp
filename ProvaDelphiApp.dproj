@@ -110,6 +110,11 @@
             <Form>fTarefa1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="forms\ufTarefa2.pas">
+            <Form>fTarefa2</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="classes\uMyThread.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -136,7 +141,7 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="3">
-                <DeployFile LocalName="Win32\Debug\ProvaDelphiApp.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Bin\ProvaDelphiApp.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>ProvaDelphiApp.exe</RemoteName>
                         <Overwrite>true</Overwrite>

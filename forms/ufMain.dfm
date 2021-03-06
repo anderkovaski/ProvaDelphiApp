@@ -30,6 +30,7 @@ object fMain: TfMain
       end
       object miTarefa2: TMenuItem
         Caption = 'Tarefa 2'
+        OnClick = miTarefa2Click
       end
       object miTarefa3: TMenuItem
         Caption = 'Tarefa 3'

@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Menus, ufTarefa1;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Menus, ufTarefa1, ufTarefa2;
 
 type
   TfMain = class(TForm)
@@ -15,6 +15,7 @@ type
     miTarefa3: TMenuItem;
     procedure FormCreate(Sender: TObject);
     procedure miTarefa1Click(Sender: TObject);
+    procedure miTarefa2Click(Sender: TObject);
   private
     { Private declarations }
     procedure InicializaForms;
@@ -46,6 +47,14 @@ var
 begin
   fTarefa1 := TfTarefa1.Create(Application);
   fTarefa1.Show;
+end;
+
+procedure TfMain.miTarefa2Click(Sender: TObject);
+var
+  fTarefa2: TfTarefa2;
+begin
+  fTarefa2 := TfTarefa2.Create(Application);
+  fTarefa2.Show;
 end;
 
 end.
