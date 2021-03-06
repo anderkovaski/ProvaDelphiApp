@@ -4,6 +4,6 @@
     <Transaction>2021/03/06 00:16:27.169,C:\projetos\delphi\ProvaDelphiApp\ProvaDelphi.groupproj=C:\projetos\delphi\ProjectGroup1.groupproj</Transaction>
   </Transactions>
   <Default.Personality>
-    <Projects ActiveProject="C:\projetos\delphi\ProvaDelphiApp\pkg\spComponentes.dproj"/>
+    <Projects ActiveProject="C:\projetos\delphi\ProvaDelphiApp\pkg\spComponentesDT.dproj"/>
   </Default.Personality>
 </BorlandProject>

@@ -30,14 +30,7 @@ type
     { Published declarations }
   end;
 
-procedure Register;
-
 implementation
-
-procedure Register;
-begin
-  RegisterComponents('Componentes', [TspQuery]);
-end;
 
 { TspQuery }
 

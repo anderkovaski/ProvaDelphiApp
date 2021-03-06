@@ -20,11 +20,8 @@ object fTarefa1: TfTarefa1
   OnClose = FormClose
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
-    Left = 104
-    Top = 96
-    Width = 31
-    Height = 13
-    Caption = 'Label1'
+  object spQuery1: TspQuery
+    Left = 128
+    Top = 80
   end
 end

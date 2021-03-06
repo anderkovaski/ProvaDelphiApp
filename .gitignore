@@ -8,9 +8,15 @@ target/
 
 *.dcu
 *.exe
+*.bpl
+*.bpi
+*.dcp
+*.lib
 *.~*~
 /__history/
 /Win32/**
+/Bin/**
+/Lib/**
 
 ### STS ###
 .apt_generated
