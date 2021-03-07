@@ -1,13 +1,12 @@
 object fTarefa1: TfTarefa1
   Left = 0
   Top = 0
-  Align = alClient
   Caption = 'Tarefa 1'
-  ClientHeight = 441
-  ClientWidth = 624
+  ClientHeight = 361
+  ClientWidth = 584
   Color = clBtnFace
-  Constraints.MinHeight = 480
-  Constraints.MinWidth = 640
+  Constraints.MinHeight = 400
+  Constraints.MinWidth = 600
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -22,16 +21,16 @@ object fTarefa1: TfTarefa1
   object pnMain: TPanel
     Left = 0
     Top = 0
-    Width = 624
-    Height = 441
+    Width = 584
+    Height = 361
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
     object pnQuery: TPanel
       Left = 0
       Top = 0
-      Width = 624
-      Height = 249
+      Width = 584
+      Height = 209
       Align = alTop
       BevelOuter = bvNone
       TabOrder = 0
@@ -43,14 +42,14 @@ object fTarefa1: TfTarefa1
         Caption = 'Colunas'
       end
       object lbTabela: TLabel
-        Left = 214
+        Left = 206
         Top = 15
         Width = 32
         Height = 13
         Caption = 'Tabela'
       end
       object lbCondicoes: TLabel
-        Left = 418
+        Left = 394
         Top = 15
         Width = 49
         Height = 13
@@ -59,27 +58,27 @@ object fTarefa1: TfTarefa1
       object meColunas: TMemo
         Left = 10
         Top = 34
-        Width = 195
-        Height = 175
+        Width = 180
+        Height = 143
         TabOrder = 0
       end
       object meTabela: TMemo
-        Left = 214
+        Left = 203
         Top = 34
-        Width = 195
-        Height = 175
+        Width = 180
+        Height = 143
         TabOrder = 1
       end
       object meCondicoes: TMemo
-        Left = 418
+        Left = 394
         Top = 34
-        Width = 195
-        Height = 175
+        Width = 180
+        Height = 143
         TabOrder = 2
       end
       object btGeraSql: TButton
-        Left = 538
-        Top = 217
+        Left = 499
+        Top = 183
         Width = 75
         Height = 25
         Caption = 'Gera SQL'
@@ -89,9 +88,9 @@ object fTarefa1: TfTarefa1
     end
     object pnResultado: TPanel
       Left = 0
-      Top = 249
-      Width = 624
-      Height = 192
+      Top = 209
+      Width = 584
+      Height = 152
       Align = alClient
       BevelOuter = bvNone
       BorderWidth = 10
@@ -99,9 +98,9 @@ object fTarefa1: TfTarefa1
       object meResultado: TMemo
         Left = 10
         Top = 10
-        Width = 604
-        Height = 172
-        Align = alClient
+        Width = 564
+        Height = 132
+        ReadOnly = True
         TabOrder = 0
       end
     end
