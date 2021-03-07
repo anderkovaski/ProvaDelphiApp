@@ -29,54 +29,80 @@ object fTarefa2: TfTarefa2
     TabOrder = 0
     object lbThread1: TLabel
       Left = 10
-      Top = 53
+      Top = 165
       Width = 40
       Height = 13
       Caption = 'Thread1'
     end
     object lbThread2: TLabel
       Left = 10
-      Top = 101
+      Top = 213
       Width = 40
       Height = 13
       Caption = 'Thread2'
     end
+    object lbIntervaloT1: TLabel
+      Left = 10
+      Top = 25
+      Width = 111
+      Height = 13
+      Caption = 'Intervalo Thread1 (ms)'
+    end
+    object lbIntervaloT2: TLabel
+      Left = 10
+      Top = 76
+      Width = 111
+      Height = 13
+      Caption = 'Intervalo Thread2 (ms)'
+    end
     object pbThread1: TProgressBar
       Left = 10
-      Top = 72
+      Top = 184
       Width = 561
       Height = 17
       MarqueeInterval = 1
       Step = 1
-      TabOrder = 0
+      TabOrder = 3
     end
     object pbThread2: TProgressBar
       Left = 10
-      Top = 120
+      Top = 232
       Width = 561
       Height = 17
       MarqueeInterval = 1
       Step = 1
-      TabOrder = 1
+      TabOrder = 4
     end
-  end
-  object btIniciar: TButton
-    Left = 10
-    Top = 18
-    Width = 75
-    Height = 25
-    Caption = 'Iniciar'
-    TabOrder = 1
-    OnClick = btIniciarClick
-  end
-  object Timer1: TTimer
-    Enabled = False
-    Left = 128
-    Top = 64
-  end
-  object Timer2: TTimer
-    Enabled = False
-    Left = 128
-    Top = 120
+    object btIniciar: TButton
+      Left = 10
+      Top = 128
+      Width = 75
+      Height = 25
+      Caption = 'Iniciar'
+      TabOrder = 2
+      OnClick = btIniciarClick
+    end
+    object edThread2: TSpinEdit
+      Left = 10
+      Top = 95
+      Width = 121
+      Height = 22
+      Increment = 50
+      MaxValue = 100000
+      MinValue = 50
+      TabOrder = 1
+      Value = 400
+    end
+    object edThread1: TSpinEdit
+      Left = 10
+      Top = 44
+      Width = 121
+      Height = 22
+      Increment = 50
+      MaxValue = 100000
+      MinValue = 50
+      TabOrder = 0
+      Value = 300
+    end
   end
 end
