@@ -115,6 +115,10 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="classes\uMyThread.pas"/>
+        <DCCReference Include="forms\ufTarefa3.pas">
+            <Form>fTarefa3</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
