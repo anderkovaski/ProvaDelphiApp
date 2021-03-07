@@ -19,15 +19,18 @@
     <Transaction>2021/03/06 18:54:29.000.739,=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
     <Transaction>2021/03/06 18:55:13.000.331,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa2.pas=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
     <Transaction>2021/03/06 18:55:13.000.331,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa2.dfm=C:\projetos\delphi\ProvaDelphiApp\Unit1.dfm</Transaction>
-    <Transaction>2021/03/06 23:14:15.841,=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
-    <Transaction>2021/03/06 23:15:02.172,C:\projetos\delphi\ProvaDelphiApp\forms\uTarefa3.dfm=C:\projetos\delphi\ProvaDelphiApp\Unit1.dfm</Transaction>
-    <Transaction>2021/03/06 23:15:02.172,C:\projetos\delphi\ProvaDelphiApp\forms\uTarefa3.pas=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
-    <Transaction>2021/03/06 23:15:30.386,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa3.pas=C:\projetos\delphi\ProvaDelphiApp\forms\uTarefa3.pas</Transaction>
-    <Transaction>2021/03/06 23:15:30.386,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa3.dfm=C:\projetos\delphi\ProvaDelphiApp\forms\uTarefa3.dfm</Transaction>
+    <Transaction>2021/03/06 23:14:15.000.841,=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
+    <Transaction>2021/03/06 23:15:02.000.172,C:\projetos\delphi\ProvaDelphiApp\forms\uTarefa3.dfm=C:\projetos\delphi\ProvaDelphiApp\Unit1.dfm</Transaction>
+    <Transaction>2021/03/06 23:15:02.000.172,C:\projetos\delphi\ProvaDelphiApp\forms\uTarefa3.pas=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
+    <Transaction>2021/03/06 23:15:30.000.386,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa3.pas=C:\projetos\delphi\ProvaDelphiApp\forms\uTarefa3.pas</Transaction>
+    <Transaction>2021/03/06 23:15:30.000.386,C:\projetos\delphi\ProvaDelphiApp\forms\ufTarefa3.dfm=C:\projetos\delphi\ProvaDelphiApp\forms\uTarefa3.dfm</Transaction>
+    <Transaction>2021/03/07 08:13:58.063,=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
+    <Transaction>2021/03/07 08:14:36.964,C:\projetos\delphi\ProvaDelphiApp\classes\uProjetos.pas=C:\projetos\delphi\ProvaDelphiApp\Unit1.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="classes"/>
     <File Path="classes\uMyThread.pas"/>
+    <File Path="classes\uProjetos.pas"/>
     <File Path="forms"/>
     <File Path="forms\ufMain.pas"/>
     <File Path="forms\ufMain.dfm"/>
