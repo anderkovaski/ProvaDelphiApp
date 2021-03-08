@@ -40,6 +40,7 @@ object fTarefa3: TfTarefa3
       Top = 34
       Width = 564
       Height = 223
+      ReadOnly = True
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET
       TitleFont.Color = clWindowText
@@ -47,14 +48,39 @@ object fTarefa3: TfTarefa3
       TitleFont.Name = 'Tahoma'
       TitleFont.Style = []
     end
-    object Button1: TButton
-      Left = 152
-      Top = 288
+    object btTotal: TButton
+      Left = 372
+      Top = 271
       Width = 75
       Height = 25
-      Caption = 'Button1'
+      Caption = 'Obter Total'
       TabOrder = 1
-      OnClick = Button1Click
+      OnClick = btTotalClick
     end
+    object edTotal: TEdit
+      Left = 453
+      Top = 274
+      Width = 121
+      Height = 21
+      Alignment = taRightJustify
+      TabOrder = 2
+    end
+  end
+  object btTotalDivisoes: TButton
+    Left = 344
+    Top = 304
+    Width = 103
+    Height = 25
+    Caption = 'Obter Total Divisoes'
+    TabOrder = 1
+    OnClick = btTotalDivisoesClick
+  end
+  object edTotalDiv: TEdit
+    Left = 453
+    Top = 305
+    Width = 121
+    Height = 21
+    Alignment = taRightJustify
+    TabOrder = 2
   end
 end
